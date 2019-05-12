@@ -10,7 +10,8 @@ from PIL import Image, ImageOps
 
 
 # 載入 MNIST 資料庫的訓練資料，並自動分為『訓練組』及『測試組』
-(X_train, y_train), (X_test, y_test) = mnist.load_data()
+#(X_train, y_train), (X_test, y_test) = mnist.load_data()
+
 
 
 # 建立簡單的線性執行的模型
